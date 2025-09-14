@@ -105,7 +105,7 @@ layers:
   - '"'
   - {t: '''', s: '"'}
   - F9
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - RGB OFF
   - RGB ON
   - RGB EFF
@@ -170,7 +170,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-down$$
   - '}'
-  - B
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
