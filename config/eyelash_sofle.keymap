@@ -20,20 +20,18 @@
     };
 };
 
-&mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 &mmv_input_listener { input-processors = <&zip_xy_scaler 1 1>; };
 
-&msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 &msc_input_listener { input-processors = <&zip_scroll_scaler 1 1>; };
 
 &msc {
-    acceleration-exponent = <0>;      // 0
-    time-to-max-speed-ms = <0>;       // 300
+    acceleration-exponent = <2>;      // 0
+    time-to-max-speed-ms = <50>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <0>;
+    time-to-max-speed-ms = <50>;
     acceleration-exponent = <2>;
 };
 
