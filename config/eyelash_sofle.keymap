@@ -26,12 +26,12 @@
 
 &msc {
     acceleration-exponent = <2>;      // 0
-    time-to-max-speed-ms = <10>;       // 300
+    time-to-max-speed-ms = <100>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <10>;
+    time-to-max-speed-ms = <0>;
     acceleration-exponent = <2>;
 };
 
