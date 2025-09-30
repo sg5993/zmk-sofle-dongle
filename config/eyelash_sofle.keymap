@@ -78,7 +78,7 @@
         layer_2 {
             bindings = <
 &kp TILDE         &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &mmv MOVE_UP     &kp F6  &kp F7             &kp F8             &kp F9            &kp F10          &kp F11
-&trans            &trans          &mkp MCLK  &msc SCRL_UP    &to 3      &trans             &mmv MOVE_DOWN   &trans  &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP     &kp F12
+&trans            &trans          &mkp MCLK  &msc SCRL_UP    &to 4      &trans             &mmv MOVE_DOWN   &trans  &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP     &kp F12
 &trans            &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN   &kp RBRC
 &sk LEFT_CONTROL  &trans          &trans     &trans          &trans     &trans             &mmv MOVE_RIGHT  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
 &trans            &trans          &trans     &trans          &mo 0      &trans             &mkp LCLK        &trans  &to 0              &trans             &trans            &trans
@@ -99,11 +99,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &trans          &trans          &trans           &trans           &trans
-&trans  &trans          &mkp MCLK  &msc SCRL_UP    &to 2      &trans             &trans  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP     &trans
-&trans  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &trans
-&trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &mkp MCLK       &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT  &mkp LCLK
-&trans  &trans          &trans     &trans          &mo 0      &trans             &trans  &trans  &to 0           &trans          &trans           &trans
+&trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &trans             &trans             &trans            &trans           &trans
+&trans  &trans          &mkp MCLK  &msc SCRL_UP    &to 2      &trans             &trans  &trans  &mkp LCLK          &mmv MOVE_Y(-600)  &mkp RCLK         &msc SCRL_UP     &trans
+&trans  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &trans  &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc SCRL_DOWN   &trans
+&trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
+&trans  &trans          &trans     &trans          &mo 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
             >;
         };
 
