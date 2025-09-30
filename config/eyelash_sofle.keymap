@@ -51,11 +51,11 @@
 
         layer0 {
             bindings = <
-&kp ESC        &kp N1        &kp N2            &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB        &kp Q         &kp W             &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O            &kp P       &kp DELETE
-&kp BACKSPACE  &kp A         &kp S             &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L            &kp SEMI    &kp ENTER
-&kp LSHFT      &kp Z         &kp X             &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT          &kp FSLH    &kp RIGHT_SHIFT
-&kp C_MUTE     &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &mo 2   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC        &kp N1            &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9           &kp N0      &kp BACKSPACE
+&kp TAB        &kp Q             &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O            &kp P       &kp DELETE
+&kp BACKSPACE  &kp A             &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L            &kp SEMI    &kp ENTER
+&kp LSHFT      &kp Z             &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT          &kp FSLH    &kp RIGHT_SHIFT
+&kp C_MUTE     &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &to 2   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -66,7 +66,7 @@
             bindings = <
 &kp GRAVE         &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6         &kp F7         &kp F8          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
 &trans            &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
-&trans            &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
+&to 5             &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
 &sk LEFT_CONTROL  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp F10
 &kp C_MUTE        &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans             &mkp LCLK        &trans         &trans         &trans          &trans                &trans
             >;
@@ -77,11 +77,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE         &kp F1        &kp F2          &kp F3        &kp F4        &kp F5          &mmv MOVE_UP     &kp F6  &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
-&trans            &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_DOWN   &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP     &kp F12
-&trans            &trans        &trans          &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &kp RBRC
-&sk LEFT_CONTROL  &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &mkp MCLK       &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT  &mkp LCLK
-&trans            &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mkp LCLK        &trans  &trans          &trans          &trans           &trans
+&kp TILDE         &kp F1      &kp F2          &kp F3       &kp F4     &kp F5    &mmv MOVE_UP     &kp F6  &kp F7             &kp F8             &kp F9            &kp F10          &kp F11
+&trans            &trans      &to 4           &to 3        &to 2      &trans    &mmv MOVE_DOWN   &trans  &mkp LCLK          &mmv MOVE_Y(100)   &mkp RCLK         &msc SCRL_UP     &kp F12
+&trans            &trans      &mkp MCLK       &mkp RCLK    &mkp LCLK  &trans    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)  &msc SCRL_DOWN   &kp RBRC
+&sk LEFT_CONTROL  &sys_reset  &trans          &bootloader  &trans     &trans    &mmv MOVE_RIGHT  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
+&trans            &bt BT_CLR  &bt BT_CLR_ALL  &trans       &trans     &trans    &mkp LCLK        &trans  &to 0              &trans             &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -89,21 +89,31 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans             &trans             &trans            &trans           &trans
+&trans  &trans  &to 4      &to 3      &to 2      &trans    &trans  &trans  &mkp LCLK          &mmv MOVE_Y(200)   &mkp RCLK         &msc SCRL_UP     &trans
+&trans  &trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans    &trans  &trans  &mmv MOVE_X(-200)  &mmv MOVE_Y(-200)  &mmv MOVE_X(200)  &msc SCRL_DOWN   &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &to 0              &trans             &trans            &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans             &trans             &trans            &trans           &trans
+&trans  &trans  &to 4      &to 3      &to 2      &trans    &trans  &trans  &mkp LCLK          &mmv MOVE_Y(400)   &mkp RCLK         &msc SCRL_UP     &trans
+&trans  &trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans    &trans  &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(-400)  &mmv MOVE_X(400)  &msc SCRL_DOWN   &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &to 0              &trans             &trans            &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &to 0   &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
     };
