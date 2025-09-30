@@ -1,12 +1,5 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
-// ZMK 헤더 파일들 (사용자 설정 유지)
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 35
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 35    // 10
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
@@ -18,7 +11,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    // 기존 zip_scroll_scaler 정의 (사용자 설정 유지)
     zip_scroll_scaler: zip_scroll_scaler {
         compatible = "zmk,input-processor-scaler";
         #input-processor-cells = <2>;
@@ -28,131 +20,71 @@
     };
 };
 
-// 기존 &mmv, &msc 리스너 및 설정 (사용자 설정 유지)
 &mmv_input_listener { input-processors = <&zip_xy_scaler 1 1>; };
+
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
-&msc { acceleration-exponent = <2>; time-to-max-speed-ms = <100>; delay-ms = <0>; };
-&mmv { time-to-max-speed-ms = <0>; acceleration-exponent = <2>; };
+
+&msc {
+    acceleration-exponent = <2>;      // 0
+    time-to-max-speed-ms = <100>;       // 300
+    delay-ms = <0>;                   // 0
+};
+
+&mmv {
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <2>;
+};
 
 / {
-    // 기존 scroll_encoder, behaviors 정의 (사용자 설정 유지)
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
         tap-ms = <30>;
     };
-    behaviors {};
 
-    // ====================================================================================
-    // ===== 키맵 정의 시작 =====
-    // ====================================================================================
-
-    // ===== [변경점 1] 가독성을 위한 레이어 이름 정의 =====
-    #define BASE 0
-    #define LAYER1 1
-    #define LAYER2 2
-    #define MOUSE_SLOW 3
-    #define MOUSE_NORMAL 4
-    #define MOUSE_FAST 5
+    behaviors {
+    };
 
     keymap {
         compatible = "zmk,keymap";
 
-        // ===== 기본 레이어 (BASE) =====
         layer0 {
             bindings = <
-                &kp ESC       &kp N1            &kp N2            &kp N3            &kp N4    &kp N5        &kp UP_ARROW      &kp N6      &kp N7    &kp N8          &kp N9          &kp N0          &kp BACKSPACE
-                &kp TAB       &kp Q             &kp W             &kp E             &kp R     &kp T         &kp DOWN_ARROW    &kp Y       &kp U     &kp I           &kp O           &kp P           &kp DELETE
-                &kp BACKSPACE &kp A             &kp S             &kp D             &kp F     &kp G         &kp LEFT_ARROW    &kp H       &kp J     &kp K           &kp L           &kp SEMI        &kp ENTER
-                &kp LSHFT     &kp Z             &kp X             &kp C             &kp V     &kp B         &kp RIGHT_ARROW   &kp N       &kp M     &kp COMMA       &kp DOT         &kp FSLH        &kp RIGHT_SHIFT
-                // ===== [변경점 2] &mo 2를 &to MOUSE_NORMAL로 변경하여 마우스 모드로 진입 =====
-                &kp C_MUTE    &kp LEFT_WIN      &kp LEFT_CONTROL  &kp LEFT_ALT      &mo LAYER1 &kp SPACE    &kp ENTER         &kp SPACE   &to MOUSE_NORMAL &kp RIGHT_ALT &kp RIGHT_SHIFT &kp DELETE
+&kp ESC        &kp N1        &kp N2            &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9           &kp N0      &kp BACKSPACE
+&kp TAB        &kp Q         &kp W             &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O            &kp P       &kp DELETE
+&kp BACKSPACE  &kp A         &kp S             &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L            &kp SEMI    &kp ENTER
+&kp LSHFT      &kp Z         &kp X             &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT          &kp FSLH    &kp RIGHT_SHIFT
+&kp C_MUTE     &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &mo 2   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp DELETE
             >;
+
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "BASE";
+            display-name = "LAYER0";
         };
 
-        // ===== 기능 레이어 1 (LAYER1) - 기존 마우스 기능 제거 =====
         layer_1 {
             bindings = <
-                &kp GRAVE         &kp F1            &kp F2            &kp F3            &kp F4            &kp F5              &trans         &kp F6        &kp F7        &kp F8          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS &kp F11
-                &trans            &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4        &trans         &kp COLON     &kp EQUAL     &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp F12
-                &trans            &kp TILDE         &trans            &trans            &trans            &trans              &trans         &kp SEMICOLON &kp MINUS     &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE      &kp F9
-                &sk LEFT_CONTROL  &rgb_ug RGB_OFF   &rgb_ug RGB_ON    &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_SPI     &trans         &kp SLASH     &kp BACKSLASH &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE       &kp F10
-                &kp C_MUTE        &bt BT_CLR        &bt BT_CLR_ALL    &trans            &trans            &trans              &trans         &trans        &trans        &trans          &trans                &trans                &trans
+&kp GRAVE         &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6         &kp F7         &kp F8          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
+&trans            &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
+&trans            &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
+&sk LEFT_CONTROL  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp F10
+&kp C_MUTE        &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans             &mkp LCLK        &trans         &trans         &trans          &trans                &trans
             >;
-            display-name = "LAYER1";
+
+            display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
         };
 
-        // ===== 기능 레이어 2 (LAYER2) - 기존 마우스 기능 제거 =====
         layer_2 {
             bindings = <
-                &kp TILDE         &kp F1            &kp F2            &kp F3            &kp F4            &kp F5              &trans         &kp F6        &kp F7          &kp F8            &kp F9            &kp F10           &kp F11
-                &trans            &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4        &trans         &trans        &trans          &trans            &trans            &trans            &kp F12
-                &trans            &out OUT_USB      &out OUT_BLE      &trans            &trans            &trans              &trans         &trans        &trans          &trans            &trans            &trans            &kp RBRC
-                &sk LEFT_CONTROL  &sys_reset        &trans            &bootloader       &trans            &trans              &trans         &trans        &trans          &trans            &trans            &trans            &trans
-                &trans            &bt BT_CLR        &bt BT_CLR_ALL    &trans            &trans            &trans              &trans         &trans        &trans          &trans            &trans            &trans            &trans
+&kp TILDE         &kp F1        &kp F2          &kp F3        &kp F4        &kp F5          &mmv MOVE_UP     &kp F6  &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
+&trans            &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_DOWN   &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP     &kp F12
+&trans            &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &kp RBRC
+&sk LEFT_CONTROL  &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &mkp MCLK       &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT  &mkp LCLK
+&trans            &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
-            sensor-bindings = <&scroll_encoder>;
-        };
 
-        // ====================================================================================
-        // ===== [변경점 3] 새로운 마우스 전용 레이어 3개 추가 (키 개수 64개로 수정) =====
-        // ====================================================================================
-
-        /* 3번: 마우스 느린 속도 레이어 */
-        mouse_slow_layer {
-            bindings = <
-                // 상단 숫자 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // QWERTY 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // ASDFG 행 (13개) - 속도 전환(A,S,D), 마우스 이동(H,J,K,L)
-                &trans  &to MOUSE_SLOW    &to MOUSE_NORMAL  &to MOUSE_FAST    &trans    &trans      &trans            &mmv MOVE_LEFT 2 1  &mmv MOVE_DOWN 2 1  &mmv MOVE_UP 2 1 &mmv MOVE_RIGHT 2 1  &trans &trans
-                // ZXCVB 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // 엄지손가락 행 (12개) - 기본 레이어 복귀(&to BASE), 마우스 클릭
-                &trans  &trans            &trans            &trans            &to BASE  &mkp LCLK   &mkp RCLK         &mkp MCLK   &trans    &trans          &trans          &trans
-            >;
-            display-name = "MOUSE SLOW";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        /* 4번: 마우스 보통 속도 레이어 */
-        mouse_normal_layer {
-            bindings = <
-                // 상단 숫자 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // QWERTY 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // ASDFG 행 (13개)
-                &trans  &to MOUSE_SLOW    &to MOUSE_NORMAL  &to MOUSE_FAST    &trans    &trans      &trans            &mmv MOVE_LEFT 6 1  &mmv MOVE_DOWN 6 1  &mmv MOVE_UP 6 1 &mmv MOVE_RIGHT 6 1  &trans &trans
-                // ZXCVB 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // 엄지손가락 행 (12개)
-                &trans  &trans            &trans            &trans            &to BASE  &mkp LCLK   &mkp RCLK         &mkp MCLK   &trans    &trans          &trans          &trans
-            >;
-            display-name = "MOUSE NORMAL";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        /* 5번: 마우스 빠른 속도 레이어 */
-        mouse_fast_layer {
-            bindings = <
-                // 상단 숫자 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // QWERTY 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // ASDFG 행 (13개)
-                &trans  &to MOUSE_SLOW    &to MOUSE_NORMAL  &to MOUSE_FAST    &trans    &trans      &trans            &mmv MOVE_LEFT 10 1 &mmv MOVE_DOWN 10 1 &mmv MOVE_UP 10 1 &mmv MOVE_RIGHT 10 1 &trans &trans
-                // ZXCVB 행 (13개)
-                &trans  &trans            &trans            &trans            &trans    &trans      &trans            &trans      &trans    &trans          &trans          &trans          &trans
-                // 엄지손가락 행 (12개)
-                &trans  &trans            &trans            &trans            &to BASE  &mkp LCLK   &mkp RCLK         &mkp MCLK   &trans    &trans          &trans          &trans
-            >;
-            display-name = "MOUSE FAST";
             sensor-bindings = <&scroll_encoder>;
         };
     };
