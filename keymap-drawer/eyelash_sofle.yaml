@@ -146,14 +146,14 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', h: toggle}
-  - {t: '3', h: toggle}
   - {t: '2', h: toggle}
+  - {t: '3', h: toggle}
+  - {t: '4', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - '&mmv MOVE_Y(100)'
+  - '&mmv MOVE_Y(-100)'
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
   - F12
@@ -166,7 +166,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-100)'
-  - '&mmv MOVE_Y(-100)'
+  - '&mmv MOVE_Y(100)'
   - '&mmv MOVE_X(100)'
   - $$mdi:pan-down$$
   - '}'
@@ -211,14 +211,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', h: toggle}
-  - {t: '3', h: toggle}
   - {t: '2', h: toggle}
+  - {t: '3', h: toggle}
+  - {t: '4', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - '&mmv MOVE_Y(200)'
+  - '&mmv MOVE_Y(-200)'
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -231,7 +231,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-200)'
-  - '&mmv MOVE_Y(-200)'
+  - '&mmv MOVE_Y(200)'
   - '&mmv MOVE_X(200)'
   - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -276,14 +276,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', h: toggle}
-  - {t: '3', h: toggle}
   - {t: '2', h: toggle}
+  - {t: '3', h: toggle}
+  - {t: '4', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - '&mmv MOVE_Y(400)'
+  - '&mmv MOVE_Y(-400)'
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -296,7 +296,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(-400)'
+  - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
   - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
