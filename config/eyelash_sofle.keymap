@@ -59,7 +59,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER_0";
+            display-name = "BASE";
         };
 
         layer_1 {
@@ -71,7 +71,7 @@
 &kp C_MUTE        &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans             &mkp LCLK        &trans         &trans         &trans          &trans                &trans
             >;
 
-            display-name = "LAYER_1";
+            display-name = "SYMBOL";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -84,7 +84,7 @@
 &trans            &trans          &trans     &trans          &mo 0      &trans             &mkp LCLK        &trans  &to 0              &trans             &trans            &trans
             >;
 
-display-name = "LAYER_2";
+            display-name = "M_SLOW";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -96,7 +96,7 @@ display-name = "LAYER_2";
 &trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
 &trans  &trans          &trans     &trans          &mo 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
             >;
-display-name = "LAYER_3";
+            display-name = "M_MID";
         };
 
         layer_4 {
@@ -107,7 +107,7 @@ display-name = "LAYER_3";
 &trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
 &trans  &trans          &trans     &trans          &mo 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
             >;
-display-name = "LAYER_4";
+            display-name = "M_FAST";
         };
 
         layer_5 {
@@ -118,7 +118,7 @@ display-name = "LAYER_4";
 &trans          &trans  &trans          &trans          &trans           &trans        &trans  &trans  &trans    &trans    &trans     &trans  &trans
 &trans          &trans  &trans          &trans          &to 0            &trans        &trans  &trans  &trans    &trans    &trans     &trans
             >;
-display-name = "LAYER_5";
+            display-name = "ARROWS";
         };
     };
 };
