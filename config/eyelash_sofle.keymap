@@ -81,10 +81,10 @@
 &trans            &trans          &mkp MCLK  &msc SCRL_UP    &to 4      &trans             &mmv MOVE_DOWN   &trans  &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP     &kp F12
 &trans            &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN   &kp RBRC
 &sk LEFT_CONTROL  &trans          &trans     &trans          &trans     &trans             &mmv MOVE_RIGHT  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
-&trans            &trans          &trans     &trans          &mo 0      &trans             &mkp LCLK        &trans  &to 0              &trans             &trans            &trans
+&trans            &trans          &trans     &trans          &to 0      &trans             &mkp LCLK        &trans  &to 0              &trans             &trans            &trans
             >;
 
-            display-name = "M_SLOW";
+            display-name = "LAYER_2";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -94,9 +94,10 @@
 &trans  &trans          &mkp MCLK  &msc SCRL_UP    &to 4      &trans             &trans  &trans  &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP     &trans
 &trans  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &trans  &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN   &trans
 &trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
-&trans  &trans          &trans     &trans          &mo 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
+&trans  &trans          &trans     &trans          &to 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
             >;
-            display-name = "M_MID";
+
+            display-name = "LAYER_3";
         };
 
         layer_4 {
@@ -105,9 +106,10 @@
 &trans  &trans          &mkp MCLK  &msc SCRL_UP    &to 2      &trans             &trans  &trans  &mkp LCLK          &mmv MOVE_Y(-600)  &mkp RCLK         &msc SCRL_UP     &trans
 &trans  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &trans  &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc SCRL_DOWN   &trans
 &trans  &trans          &trans     &trans          &trans     &trans             &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
-&trans  &trans          &trans     &trans          &mo 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
+&trans  &trans          &trans     &trans          &to 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
             >;
-            display-name = "M_FAST";
+
+            display-name = "LAYER_4";
         };
 
         layer_5 {
@@ -118,7 +120,18 @@
 &trans          &trans  &trans          &trans          &trans           &trans        &trans  &trans  &trans    &trans    &trans     &trans  &trans
 &trans          &trans  &trans          &trans          &to 0            &trans        &trans  &trans  &trans    &trans    &trans     &trans
             >;
+
             display-name = "ARROWS";
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
