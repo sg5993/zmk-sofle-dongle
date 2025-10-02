@@ -181,7 +181,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
-  - $$mdi:pan-right$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -246,7 +246,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
-  - $$mdi:pan-right$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -472,5 +472,11 @@ combos:
   k: {t: M_SLOW, h: toggle}
   l: [BASE]
 - p: [34, 30]
+  k: {t: BASE, h: toggle}
+  l: [M_SLOW, M_MID, M_FAST]
+- p: [40, 28]
+  k: {t: M_SLOW, h: toggle}
+  l: [BASE]
+- p: [40, 28]
   k: {t: BASE, h: toggle}
   l: [M_SLOW, M_MID, M_FAST]
