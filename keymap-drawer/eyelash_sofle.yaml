@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: M_MID, h: toggle}
+  - {t: M_SLOW, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -149,9 +149,9 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
   - {t: M_MID, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: BASE, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: BASE, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - '&mmv MOVE_Y(-100)'
   - $$mdi:mouse-right-click-outline$$
@@ -214,9 +214,9 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
   - {t: M_SLOW, h: toggle}
+  - {t: BASE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: BASE, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - '&mmv MOVE_Y(-400)'
   - $$mdi:mouse-right-click-outline$$
