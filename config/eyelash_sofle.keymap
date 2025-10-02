@@ -78,7 +78,7 @@
         layer_2 {
             bindings = <
 &kp TILDE         &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &mmv MOVE_UP     &kp F6  &kp F7             &kp F8             &kp F9            &kp F10          &kp F11
-&trans            &trans          &mkp MCLK  &msc SCRL_UP    &to 3      &to 0              &mmv MOVE_DOWN   &to 0   &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP     &kp F12
+&trans            &trans          &mkp MCLK  &msc SCRL_UP    &mkp MCLK  &to 0              &mmv MOVE_DOWN   &to 0   &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP     &kp F12
 &trans            &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN   &kp RBRC
 &sk LEFT_CONTROL  &to 3           &trans     &trans          &trans     &trans             &mmv MOVE_RIGHT  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
 &trans            &trans          &trans     &trans          &to 0      &trans             &mkp LCLK        &trans  &to 0              &trans             &trans            &trans
@@ -91,7 +91,7 @@
         layer_3 {
             bindings = <
 &trans  &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &trans  &kp F6  &kp F7             &kp F8             &kp F9            &kp F10          &kp F11
-&trans  &trans          &mkp MCLK  &msc SCRL_UP    &to 2      &to 0              &trans  &to 0   &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP     &kp F12
+&trans  &trans          &mkp MCLK  &msc SCRL_UP    &mkp MCLK  &to 0              &trans  &to 0   &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP     &kp F12
 &trans  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &trans  &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN   &trans
 &trans  &to 2           &trans     &trans          &trans     &trans             &trans  &trans  &mkp MCLK          &trans             &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
 &trans  &trans          &trans     &trans          &to 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
