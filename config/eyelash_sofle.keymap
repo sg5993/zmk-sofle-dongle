@@ -67,12 +67,6 @@
             layers = <2 3 4>;
         };
 
-        quit2 {
-            bindings = <&to 0>;
-            key-positions = <34 35>;
-            layers = <2 3 4>;
-        };
-
         tm3 {
             bindings = <&to 2>;
             key-positions = <34 30>;
