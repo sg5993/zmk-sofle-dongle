@@ -644,6 +644,14 @@ rect.held, rect.combo.held {
 <text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="253" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M725,254 l-97,25" class="combo"/>
+<path d="M725,254 l97,-25" class="combo"/>
+<rect rx="6" ry="6" x="711" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="725" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="725" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-SYMBOL">
@@ -1013,6 +1021,14 @@ rect.held, rect.combo.held {
 <text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="253" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M725,254 l-97,25" class="combo"/>
+<path d="M725,254 l97,-25" class="combo"/>
+<rect rx="6" ry="6" x="711" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="725" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="725" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-M_SLOW">
@@ -1371,6 +1387,14 @@ rect.held, rect.combo.held {
 <text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="253" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M725,254 l-97,25" class="combo"/>
+<path d="M725,254 l97,-25" class="combo"/>
+<rect rx="6" ry="6" x="711" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="725" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="725" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-M_MID">
@@ -1724,6 +1748,14 @@ rect.held, rect.combo.held {
 <text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="253" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M725,254 l-97,25" class="combo"/>
+<path d="M725,254 l97,-25" class="combo"/>
+<rect rx="6" ry="6" x="711" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="725" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="725" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-M_FAST">
@@ -2071,6 +2103,14 @@ rect.held, rect.combo.held {
 <text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="253" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M725,254 l-97,25" class="combo"/>
+<path d="M725,254 l97,-25" class="combo"/>
+<rect rx="6" ry="6" x="711" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="725" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="725" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-ARROWS">
@@ -2412,6 +2452,14 @@ rect.held, rect.combo.held {
 <text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="253" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M725,254 l-97,25" class="combo"/>
+<path d="M725,254 l97,-25" class="combo"/>
+<rect rx="6" ry="6" x="711" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="725" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="725" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-FUNCTIONS">
@@ -2748,6 +2796,14 @@ rect.held, rect.combo.held {
 <a href="#M_SLOW">
 <text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="253" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M725,254 l-97,25" class="combo"/>
+<path d="M725,254 l97,-25" class="combo"/>
+<rect rx="6" ry="6" x="711" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="725" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="725" y="265" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

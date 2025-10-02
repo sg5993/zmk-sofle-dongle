@@ -458,3 +458,5 @@ layers:
 combos:
 - p: [55, 40]
   k: {t: M_SLOW, h: toggle}
+- p: [60, 50]
+  k: {t: M_SLOW, h: toggle}
