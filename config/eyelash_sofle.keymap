@@ -90,6 +90,18 @@
             key-positions = <40 28>;
             layers = <2 3 4>;
         };
+
+        copyofbir {
+            bindings = <&to 2>;
+            key-positions = <36 50>;
+            layers = <0>;
+        };
+
+        rev {
+            bindings = <&to 0>;
+            key-positions = <36 50>;
+            layers = <2 3 4>;
+        };
     };
 
     keymap {
