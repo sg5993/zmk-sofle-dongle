@@ -84,7 +84,7 @@
 &trans            &trans          &trans     &trans          &to 0      &trans             &mkp LCLK        &trans  &to 0              &trans             &trans            &trans
             >;
 
-            display-name = "LAYER_2";
+            display-name = "M_SLOW";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -97,7 +97,7 @@
 &trans  &trans          &trans     &trans          &to 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
             >;
 
-            display-name = "LAYER_3";
+            display-name = "M_MID";
         };
 
         layer_4 {
@@ -109,7 +109,7 @@
 &trans  &trans          &trans     &trans          &to 0      &trans             &trans  &trans  &to 0              &trans             &trans            &trans
             >;
 
-            display-name = "LAYER_4";
+            display-name = "M_FAST";
         };
 
         layer_5 {
