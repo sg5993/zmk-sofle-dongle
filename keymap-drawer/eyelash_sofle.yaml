@@ -456,7 +456,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
-- p: [55, 40]
+- p: [30, 29]
   k: {t: M_SLOW, h: toggle}
-- p: [60, 50]
+  l: [BASE]
+- p: [34, 35]
   k: {t: M_SLOW, h: toggle}
+  l: [BASE]
+- p: [29, 30]
+  k: {t: BASE, h: toggle}
+  l: [M_SLOW, M_MID, M_FAST]
+- p: [34, 35]
+  k: {t: BASE, h: toggle}
+  l: [M_SLOW, M_MID, M_FAST]
