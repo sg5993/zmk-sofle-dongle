@@ -636,6 +636,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-0">
+<path d="M168,242 l66,14" class="combo"/>
+<path d="M168,242 l-66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="229" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="168" y="253" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-SYMBOL">
@@ -997,6 +1005,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
+<g class="combo combopos-0">
+<path d="M168,242 l66,14" class="combo"/>
+<path d="M168,242 l-66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="229" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="168" y="253" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-M_SLOW">
@@ -1347,6 +1363,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
+<g class="combo combopos-0">
+<path d="M168,242 l66,14" class="combo"/>
+<path d="M168,242 l-66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="229" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="168" y="253" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-M_MID">
@@ -1692,6 +1716,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
+<g class="combo combopos-0">
+<path d="M168,242 l66,14" class="combo"/>
+<path d="M168,242 l-66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="229" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="168" y="253" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-M_FAST">
@@ -2031,6 +2063,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
+<g class="combo combopos-0">
+<path d="M168,242 l66,14" class="combo"/>
+<path d="M168,242 l-66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="229" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="168" y="253" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-ARROWS">
@@ -2364,6 +2404,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
+<g class="combo combopos-0">
+<path d="M168,242 l66,14" class="combo"/>
+<path d="M168,242 l-66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="229" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="168" y="253" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-FUNCTIONS">
@@ -2692,6 +2740,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+</g>
+<g class="combo combopos-0">
+<path d="M168,242 l66,14" class="combo"/>
+<path d="M168,242 l-66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="229" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="168" y="242" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="168" y="253" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
