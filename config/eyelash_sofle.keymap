@@ -46,6 +46,15 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        toMouse {
+            bindings = <&to 2>;
+            key-positions = <55 40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
