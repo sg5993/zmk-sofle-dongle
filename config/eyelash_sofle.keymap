@@ -144,7 +144,7 @@
 &trans            &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &mmv MOVE_DOWN   &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP      &kp F12
 &trans            &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &kp LC(Z)        &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN    &trans
 &kp LEFT_CONTROL  &to 2           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(X)  &kp LC(A)          &mmv MOVE_RIGHT  &kp LS(LC(Z))    &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
-&none             &none           &none             &none            &mo 3      &none              &mkp LCLK        &none            &to 0              &none              &none             &none
+&none             &none           &none             &none            &mo 3      &none              &mkp LCLK        &none            &mo 6              &none              &none             &none
             >;
 
             display-name = "M_SLOW";
@@ -157,7 +157,7 @@
 &trans            &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &none  &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP      &kp F12
 &trans            &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &none  &none            &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN    &trans
 &kp LEFT_CONTROL  &to 1           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(X)  &kp LC(A)          &none  &none            &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
-&none             &none           &none             &none            &mo 3      &none              &none  &none            &to 0              &none              &none             &none
+&none             &none           &none             &none            &mo 3      &none              &none  &none            &mo 6              &none              &none             &none
             >;
 
             display-name = "M_MID";
