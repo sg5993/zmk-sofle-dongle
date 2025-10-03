@@ -49,38 +49,8 @@
     combos {
         compatible = "zmk,combos";
 
-        toMouse {
-            bindings = <&to 2>;
-            key-positions = <30 29>;
-            layers = <0>;
-        };
-
-        tmouse {
-            bindings = <&to 2>;
-            key-positions = <34 35>;
-            layers = <0>;
-        };
-
-        quit1 {
-            bindings = <&to 0>;
-            key-positions = <29 30>;
-            layers = <2 3 4>;
-        };
-
-        tm3 {
-            bindings = <&to 2>;
-            key-positions = <34 30>;
-            layers = <0>;
-        };
-
-        quit3 {
-            bindings = <&to 0>;
-            key-positions = <34 30>;
-            layers = <2 3 4>;
-        };
-
         zge {
-            bindings = <&to 2>;
+            bindings = <&to 1>;
             key-positions = <40 28>;
             layers = <0>;
             timeout-ms = <65>;
@@ -89,12 +59,12 @@
         ragekl {
             bindings = <&to 0>;
             key-positions = <40 28>;
-            layers = <2 3 4>;
+            layers = <1 2 5>;
             timeout-ms = <65>;
         };
 
         copyofbir {
-            bindings = <&to 2>;
+            bindings = <&to 1>;
             key-positions = <36 50>;
             layers = <0>;
             timeout-ms = <65>;
@@ -103,7 +73,7 @@
         rev {
             bindings = <&to 0>;
             key-positions = <36 50>;
-            layers = <2 3 4>;
+            layers = <1 2 5>;
             timeout-ms = <65>;
         };
     };
@@ -133,24 +103,11 @@
 &kp TAB        &kp Q             &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O            &kp P       &kp DELETE
 &kp BACKSPACE  &kp A             &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L            &kp SEMI    &kp ENTER
 &kp LSHFT      &kp Z             &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT          &kp FSLH    &kp RIGHT_SHIFT
-&kp C_MUTE     &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &mo 6   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE     &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 4   &kp SPACE    &kp ENTER        &kp SPACE  &mo 6   &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "BASE";
-        };
-
-        layer_1 {
-            bindings = <
-&kp GRAVE   &kp F1        &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp CARET      &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
-&none       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
-&to 5       &kp TILDE     &none           &none            &none            &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
-&to 2       &to 2         &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp F10
-&kp C_MUTE  &bt BT_CLR    &bt BT_CLR_ALL  &trans           &trans           &none              &mkp LCLK        &none          &none          &none           &none                 &none
-            >;
-
-            display-name = "SYMBOL";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
@@ -158,8 +115,8 @@
 &kp TILDE         &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &mmv MOVE_UP     &kp F6  &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
 &none             &none           &mkp MCLK  &msc SCRL_UP    &mkp MCLK  &to 0              &mmv MOVE_DOWN   &to 0   &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP      &kp F12
 &none             &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &none   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN    &kp RBRC
-&sk LEFT_CONTROL  &to 3           &kp MINUS  &none           &kp PLUS   &none              &mmv MOVE_RIGHT  &none   &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
-&none             &none           &none      &none           &mo 1      &none              &mkp LCLK        &none   &to 0              &none              &none             &none
+&sk LEFT_CONTROL  &to 2           &kp MINUS  &none           &kp PLUS   &none              &mmv MOVE_RIGHT  &none   &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
+&none             &none           &none      &none           &mo 4      &none              &mkp LCLK        &none   &to 0              &none              &none             &none
             >;
 
             display-name = "M_SLOW";
@@ -171,17 +128,30 @@
 &none  &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &none  &kp F6  &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
 &none  &none           &mkp MCLK  &msc SCRL_UP    &mkp MCLK  &to 0              &none  &to 0   &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP      &kp F12
 &none  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &none  &none   &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN    &none
-&none  &to 2           &kp MINUS  &none           &kp PLUS   &none              &none  &none   &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
-&none  &none           &none      &none           &mo 1      &none              &none  &none   &to 0              &none              &none             &none
+&none  &to 1           &kp MINUS  &none           &kp PLUS   &none              &none  &none   &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
+&none  &none           &none      &none           &mo 4      &none              &none  &none   &to 0              &none              &none             &none
             >;
 
             display-name = "M_MID";
         };
 
+        layer_1 {
+            bindings = <
+&kp GRAVE   &kp F1        &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp CARET      &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
+&none       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
+&to 5       &kp TILDE     &none           &none            &none            &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
+&to 1       &to 1         &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp F10
+&kp C_MUTE  &bt BT_CLR    &bt BT_CLR_ALL  &trans           &trans           &none              &mkp LCLK        &none          &none          &none           &none                 &none
+            >;
+
+            display-name = "SYMBOL";
+            sensor-bindings = <&scroll_encoder>;
+        };
+
         layer_4 {
             bindings = <
 &none  &kp F1          &none      &none           &none      &none              &none  &none  &none              &none              &none             &none            &none
-&none  &none           &mkp MCLK  &msc SCRL_UP    &to 2      &none              &none  &none  &mkp LCLK          &mmv MOVE_Y(-600)  &mkp RCLK         &msc SCRL_UP     &none
+&none  &none           &mkp MCLK  &msc SCRL_UP    &to 1      &none              &none  &none  &mkp LCLK          &mmv MOVE_Y(-600)  &mkp RCLK         &msc SCRL_UP     &none
 &none  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &none  &none  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc SCRL_DOWN   &none
 &none  &none           &none      &none           &none      &none              &none  &none  &mkp MCLK          &none              &msc SCRL_LEFT    &msc SCRL_RIGHT  &mkp LCLK
 &none  &none           &none      &none           &to 0      &none              &none  &none  &to 0              &none              &none             &none
@@ -207,7 +177,7 @@
 &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &none  &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
 &none  &none   &none   &none   &none   &none     &none  &none   &none     &kp UP    &none      &none    &kp F12
 &none  &none   &none   &none   &none   &none     &none  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none    &none
-&none  &none   &none   &none   &none   &none     &none  &none   &none     &none     &none      &to 2    &to 2
+&none  &none   &none   &none   &none   &none     &none  &none   &none     &none     &none      &to 1    &to 1
 &none  &none   &none   &none   &none   &none     &none  &none   &none     &none     &none      &none
             >;
 
