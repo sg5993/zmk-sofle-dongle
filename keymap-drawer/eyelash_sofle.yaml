@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   M_SLOW:
-  - '~'
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
@@ -92,7 +92,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-down$$
@@ -104,8 +104,8 @@ layers:
   - '&mmv MOVE_Y(100)'
   - '&mmv MOVE_X(100)'
   - $$mdi:pan-down$$
-  - '}'
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: M_MID, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
@@ -131,7 +131,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   M_MID:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
@@ -144,7 +144,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
@@ -157,7 +157,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-down$$
@@ -169,8 +169,8 @@ layers:
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
   - $$mdi:pan-down$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: M_SLOW, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
