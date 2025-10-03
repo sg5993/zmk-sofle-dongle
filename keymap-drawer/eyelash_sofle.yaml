@@ -86,7 +86,7 @@ layers:
   - '&copy'
   - '&paste'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: BASE, h: toggle}
+  - PRINTSCREEN
   - $$mdi:mouse-left-click-outline$$
   - '&mmv MOVE_Y(-100)'
   - $$mdi:mouse-right-click-outline$$
@@ -151,7 +151,7 @@ layers:
   - '&copy'
   - '&paste'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: BASE, h: toggle}
+  - PRINTSCREEN
   - $$mdi:mouse-left-click-outline$$
   - '&mmv MOVE_Y(-400)'
   - $$mdi:mouse-right-click-outline$$
