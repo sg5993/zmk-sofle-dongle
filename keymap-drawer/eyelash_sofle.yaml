@@ -83,8 +83,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
-  - '&copy'
-  - '&paste'
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PRINTSCREEN
   - $$mdi:mouse-left-click-outline$$
@@ -107,10 +107,10 @@ layers:
   - '}'
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: M_MID, h: toggle}
-  - {t: '-', s: _}
-  - +
-  - '&cut'
-  - '&selectAll'
+  - Ctl+KP MINUS
+  - Ctl+KP PLUS
+  - Ctl+X
+  - Ctl+A
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
@@ -148,8 +148,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
-  - '&copy'
-  - '&paste'
+  - Ctl+C
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PRINTSCREEN
   - $$mdi:mouse-left-click-outline$$
@@ -172,10 +172,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: M_SLOW, h: toggle}
-  - {t: '-', s: _}
-  - +
-  - '&cut'
-  - '&selectAll'
+  - Ctl+KP MINUS
+  - Ctl+KP PLUS
+  - Ctl+X
+  - Ctl+A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
