@@ -140,11 +140,11 @@
 
         layer_1 {
             bindings = <
-&kp TILDE         &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &mmv MOVE_UP     &kp F6  &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
-&none             &none           &mkp MCLK  &msc SCRL_UP    &copy      &paste             &mmv MOVE_DOWN   &to 0   &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP      &kp F12
-&none             &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &none   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN    &kp RBRC
-&sk LEFT_CONTROL  &to 2           &kp MINUS  &kp PLUS        &cut       &selectAll         &mmv MOVE_RIGHT  &none   &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
-&none             &none           &none      &none           &mo 3      &none              &mkp LCLK        &none   &to 0              &none              &none             &none
+&kp TILDE         &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &mmv MOVE_UP     &kp F6           &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
+&none             &none           &mkp MCLK  &msc SCRL_UP    &copy      &paste             &mmv MOVE_DOWN   &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP      &kp F12
+&none             &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &none            &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN    &kp RBRC
+&sk LEFT_CONTROL  &to 2           &kp MINUS  &kp PLUS        &cut       &selectAll         &mmv MOVE_RIGHT  &none            &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
+&none             &none           &none      &none           &mo 3      &none              &mkp LCLK        &none            &to 0              &none              &none             &none
             >;
 
             display-name = "M_SLOW";
@@ -153,11 +153,11 @@
 
         layer_2 {
             bindings = <
-&none  &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &none  &kp F6  &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
-&none  &none           &mkp MCLK  &msc SCRL_UP    &copy      &paste             &none  &to 0   &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP      &kp F12
-&none  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &none  &none   &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN    &none
-&none  &to 1           &kp MINUS  &kp PLUS        &cut       &selectAll         &none  &none   &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
-&none  &none           &none      &none           &mo 3      &none              &none  &none   &to 0              &none              &none             &none
+&none  &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &none  &kp F6           &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
+&none  &none           &mkp MCLK  &msc SCRL_UP    &copy      &paste             &none  &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP      &kp F12
+&none  &msc SCRL_LEFT  &mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &msc SCRL_RIGHT    &none  &none            &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN    &none
+&none  &to 1           &kp MINUS  &kp PLUS        &cut       &selectAll         &none  &none            &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
+&none  &none           &none      &none           &mo 3      &none              &none  &none            &to 0              &none              &none             &none
             >;
 
             display-name = "M_MID";
