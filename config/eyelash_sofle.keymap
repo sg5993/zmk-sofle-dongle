@@ -120,7 +120,6 @@
             >;
 
             display-name = "M_SLOW";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
@@ -145,7 +144,6 @@
             >;
 
             display-name = "SYMBOL";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_4 {
