@@ -167,7 +167,7 @@
 &trans            &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &trans  &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP    &kp F12
 &trans            &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &trans  &none            &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN  &trans
 &kp LEFT_CONTROL  &to 1           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(X)  &kp LC(A)          &trans  &none            &mkp MCLK          &none              &msc SCRL_LEFT    &kp LA(TAB)     &mkp LCLK
-&trans            &trans          &trans            &trans           &mo 3      &trans             &trans  &none            &mo 6              &trans             &trans            &trans
+&trans            &trans          &trans            &trans           &mo 3      &trans             &trans  &trans           &mo 6              &trans             &trans            &trans
             >;
 
             display-name = "M_MID";
@@ -179,7 +179,7 @@
 &none       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
 &to 5       &kp TILDE     &none           &none            &none            &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
 &to 1       &to 1         &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp F10
-&kp C_MUTE  &bt BT_CLR    &bt BT_CLR_ALL  &trans           &trans           &none              &mkp LCLK        &none          &none          &none           &none                 &none
+&kp C_MUTE  &bt BT_CLR    &bt BT_CLR_ALL  &trans           &trans           &none              &mkp LCLK        &trans         &none          &none           &none                 &none
             >;
 
             display-name = "SYMBOL";
