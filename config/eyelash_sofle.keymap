@@ -110,7 +110,7 @@
             display-name = "BASE";
         };
 
-        layer_2 {
+        layer_1 {
             bindings = <
 &kp TILDE         &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &mmv MOVE_UP     &kp F6  &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
 &none             &none           &mkp MCLK  &msc SCRL_UP    &mkp MCLK  &to 0              &mmv MOVE_DOWN   &to 0   &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP      &kp F12
@@ -123,7 +123,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        layer_2 {
             bindings = <
 &none  &kp F1          &kp F2     &kp F3          &kp F4     &kp F5             &none  &kp F6  &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
 &none  &none           &mkp MCLK  &msc SCRL_UP    &mkp MCLK  &to 0              &none  &to 0   &mkp LCLK          &mmv MOVE_Y(-400)  &mkp RCLK         &msc SCRL_UP      &kp F12
@@ -135,7 +135,7 @@
             display-name = "M_MID";
         };
 
-        layer_1 {
+        layer_3 {
             bindings = <
 &kp GRAVE   &kp F1        &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp CARET      &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
 &none       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
