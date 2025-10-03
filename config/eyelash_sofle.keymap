@@ -142,8 +142,8 @@
             bindings = <
 &kp ESCAPE        &kp F1          &kp F2            &kp F3           &kp F4     &kp F5             &mmv MOVE_UP     &kp F6           &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
 &trans            &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &mmv MOVE_DOWN   &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &msc SCRL_UP      &kp F12
-&trans            &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &none            &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN    &trans
-&kp LEFT_CONTROL  &to 2           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(X)  &kp LC(A)          &mmv MOVE_RIGHT  &none            &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
+&trans            &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &kp LC(Z)        &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN    &trans
+&kp LEFT_CONTROL  &to 2           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(X)  &kp LC(A)          &mmv MOVE_RIGHT  &kp LS(LC(Z))    &mkp MCLK          &none              &msc SCRL_LEFT    &kp LEFT_CONTROL  &mkp LCLK
 &none             &none           &none             &none            &mo 3      &none              &mkp LCLK        &none            &to 0              &none              &none             &none
             >;
 
