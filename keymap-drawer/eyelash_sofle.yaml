@@ -235,7 +235,7 @@ layers:
   - '"'
   - {t: '''', s: '"'}
   - F9
-  - {t: M_SLOW, h: toggle}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: M_SLOW, h: toggle}
   - RGB ON
   - RGB EFF
