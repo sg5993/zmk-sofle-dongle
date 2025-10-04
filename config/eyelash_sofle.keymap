@@ -175,11 +175,11 @@
 
         layer_3 {
             bindings = <
-&kp GRAVE   &kp F1        &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp CARET      &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
-&none       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
-&to 5       &kp TILDE     &none           &none            &none            &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
-&to 1       &to 1         &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp F10
-&kp C_MUTE  &bt BT_CLR    &bt BT_CLR_ALL  &trans           &trans           &none              &mkp LCLK        &trans         &none          &none           &none                 &none
+&kp GRAVE         &kp F1        &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp CARET      &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
+&none             &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
+&to 5             &kp TILDE     &none           &none            &none            &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp F9
+&sk LEFT_CONTROL  &to 1         &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp F10
+&kp C_MUTE        &bt BT_CLR    &bt BT_CLR_ALL  &trans           &trans           &none              &mkp LCLK        &trans         &none          &none           &none                 &none
             >;
 
             display-name = "SYMBOL";
