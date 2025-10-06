@@ -171,6 +171,7 @@
             >;
 
             display-name = "M_MID";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -183,6 +184,7 @@
             >;
 
             display-name = "SYMBOL";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_4 {
@@ -195,6 +197,7 @@
             >;
 
             display-name = "M_FAST";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_5 {
@@ -207,6 +210,7 @@
             >;
 
             display-name = "ARROWS";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_6 {
@@ -219,6 +223,7 @@
             >;
 
             label = "FUNCTIONS";
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
