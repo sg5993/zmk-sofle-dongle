@@ -144,7 +144,7 @@
 &kp C_MUTE     &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 3   &kp SPACE    &kp ENTER        &kp SPACE  &mo 6   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp PRINTSCREEN
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             display-name = "BASE";
         };
 
@@ -158,7 +158,7 @@
             >;
 
             display-name = "M_SLOW";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_2 {
@@ -171,7 +171,7 @@
             >;
 
             display-name = "M_MID";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
@@ -184,7 +184,7 @@
             >;
 
             display-name = "SYMBOL";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_4 {
@@ -197,7 +197,7 @@
             >;
 
             display-name = "M_FAST";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_5 {
@@ -210,7 +210,7 @@
             >;
 
             display-name = "ARROWS";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_6 {
@@ -223,7 +223,7 @@
             >;
 
             label = "FUNCTIONS";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
