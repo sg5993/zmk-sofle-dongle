@@ -109,8 +109,8 @@ layers:
   - {t: M_MID, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
-  - Ctl+X
   - Ctl+A
+  - Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+Z
   - $$mdi:mouse-scroll-wheel$$
@@ -174,8 +174,8 @@ layers:
   - {t: M_SLOW, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
-  - Ctl+X
   - Ctl+A
+  - Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+Z
   - $$mdi:mouse-scroll-wheel$$
@@ -434,8 +434,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
-  - Ctl+X
   - Ctl+A
+  - Ctl+X
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Sft+Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
