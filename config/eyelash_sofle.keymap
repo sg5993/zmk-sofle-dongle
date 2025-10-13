@@ -104,14 +104,12 @@
         an {
             bindings = <&to 1>;
             key-positions = <30 34>;
-            timeout-ms = <65>;
             layers = <0>;
         };
 
         an2 {
             bindings = <&to 0>;
             key-positions = <30 34>;
-            timeout-ms = <65>;
             layers = <1 2 5>;
         };
     };
