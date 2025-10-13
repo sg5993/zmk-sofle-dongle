@@ -87,10 +87,10 @@ layers:
   - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:apple-keyboard-option$$
   - '&mmv MOVE_Y(-100)'
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-up$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
@@ -103,9 +103,9 @@ layers:
   - '&mmv MOVE_X(-100)'
   - '&mmv MOVE_Y(100)'
   - '&mmv MOVE_X(100)'
-  - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: M_MID, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
@@ -113,11 +113,11 @@ layers:
   - Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+Z
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-left$$
-  - Alt+$$mdi:keyboard-tab$$
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -152,10 +152,10 @@ layers:
   - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:apple-keyboard-option$$
   - '&mmv MOVE_Y(-400)'
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-up$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
@@ -168,9 +168,9 @@ layers:
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
-  - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: M_SLOW, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
@@ -178,11 +178,11 @@ layers:
   - Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+Z
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-left$$
-  - Alt+$$mdi:keyboard-tab$$
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -234,8 +234,8 @@ layers:
   - _
   - '"'
   - {t: '''', s: '"'}
-  - F9
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: M_SLOW, h: toggle}
   - RGB ON
   - RGB EFF
@@ -247,7 +247,7 @@ layers:
   - '|'
   - '{'
   - '}'
-  - F10
+  - '~'
   - $$mdi:volume-off$$
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -406,8 +406,8 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - W
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:pan-up$$
   - Ctl+C
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -418,11 +418,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - A
-  - S
-  - D
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-left$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:pan-down$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:pan-right$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Z
   - $$mdi:arrow-left-bold$$
@@ -432,8 +432,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
-  - X
+  - Ctl+KP MINUS
+  - Ctl+KP PLUS
   - Ctl+A
   - Ctl+X
   - {t: '$$mdi:minus-circle-outline$$', type: none}
