@@ -86,6 +86,34 @@
             bindings = <&kp LS(SPACE)>;
             key-positions = <56 39>;
         };
+
+        another {
+            bindings = <&to 1>;
+            key-positions = <40 50>;
+            timeout-ms = <65>;
+            layers = <0>;
+        };
+
+        another2 {
+            bindings = <&to 0>;
+            key-positions = <40 50>;
+            timeout-ms = <65>;
+            layers = <1 2 5>;
+        };
+
+        an {
+            bindings = <&to 1>;
+            key-positions = <30 34>;
+            timeout-ms = <65>;
+            layers = <0>;
+        };
+
+        an2 {
+            bindings = <&to 0>;
+            key-positions = <30 34>;
+            timeout-ms = <65>;
+            layers = <1 2 5>;
+        };
     };
 
     macros {
