@@ -412,9 +412,9 @@ layers:
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -438,10 +438,10 @@ layers:
   - Ctl+X
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Sft+Z
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: M_SLOW, h: toggle}
+  - '&mmv MOVE_X(-100)'
+  - '&mmv MOVE_Y(-100)'
+  - '&mmv MOVE_Y(100)'
+  - '&mmv MOVE_X(100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
