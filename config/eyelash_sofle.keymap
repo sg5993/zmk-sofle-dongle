@@ -114,6 +114,20 @@
             layers = <1 2 5>;
             timeout-ms = <65>;
         };
+
+        nz {
+            bindings = <&to 1>;
+            key-positions = <40 30>;
+            timeout-ms = <65>;
+            layers = <0>;
+        };
+
+        nz2 {
+            bindings = <&to 0>;
+            key-positions = <40 30>;
+            timeout-ms = <65>;
+            layers = <1 2 5>;
+        };
     };
 
     macros {
