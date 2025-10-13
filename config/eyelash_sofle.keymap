@@ -243,11 +243,11 @@
 
         layer_6 {
             bindings = <
-&trans  &kp F1          &kp F2            &kp F3           &kp F4     &kp F5             &none  &kp F6           &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&trans  &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &none  &kp PRINTSCREEN  &none     &kp UP    &none      &none    &kp F12
-&trans  &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &none  &kp LC(Z)        &kp LEFT  &kp DOWN  &kp RIGHT  &none    &trans
-&trans  &none           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &none  &kp LC(LS(Z))    &none     &none     &none      &to 1    &trans
-&none   &trans          &trans            &trans           &to 0      &trans             &none  &trans           &none     &trans    &trans     &trans
+&trans  &kp F1          &kp F2            &kp F3           &kp F4     &kp F5             &none  &kp F6           &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
+&trans  &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &none  &kp PRINTSCREEN  &kp LEFT_ALT       &kp UP             &kp TAB           &none             &kp F12
+&trans  &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &none  &kp LC(Z)        &kp LEFT           &kp DOWN           &kp RIGHT         &none             &trans
+&trans  &none           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &none  &kp LC(LS(Z))    &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_Y(100)  &mmv MOVE_X(100)  &trans
+&none   &trans          &trans            &trans           &to 0      &trans             &none  &trans           &none              &trans             &trans            &trans
             >;
 
             label = "FUNCTIONS";
