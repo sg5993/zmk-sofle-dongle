@@ -484,3 +484,9 @@ combos:
 - p: [40, 60]
   k: {t: BASE, h: toggle}
   l: [M_SLOW, M_MID, ARROWS]
+- p: [40, 30]
+  k: {t: M_SLOW, h: toggle}
+  l: [BASE]
+- p: [40, 30]
+  k: {t: BASE, h: toggle}
+  l: [M_SLOW, M_MID, ARROWS]
