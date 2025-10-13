@@ -115,8 +115,8 @@ layers:
   - Sft+Ctl+Z
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -180,8 +180,8 @@ layers:
   - Ctl+Sft+Z
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
