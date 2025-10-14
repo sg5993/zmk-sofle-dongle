@@ -684,6 +684,14 @@ rect.held, rect.combo.held {
 <text x="168" y="186" class="combo tap layer-activator">M_SLOW</text>
 </a><text x="168" y="197" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-7">
+<path d="M199,254 l-97,-25" class="combo"/>
+<path d="M199,254 l97,25" class="combo"/>
+<rect rx="6" ry="6" x="185" y="241" width="28" height="26" class="combo"/>
+<a href="#M_SLOW">
+<text x="199" y="254" class="combo tap layer-activator">M_SLOW</text>
+</a><text x="199" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-M_SLOW">
@@ -1075,6 +1083,14 @@ rect.held, rect.combo.held {
 <text x="168" y="186" class="combo tap layer-activator">BASE</text>
 </a><text x="168" y="197" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-7">
+<path d="M199,254 l-97,-25" class="combo"/>
+<path d="M199,254 l97,25" class="combo"/>
+<rect rx="6" ry="6" x="185" y="241" width="28" height="26" class="combo"/>
+<a href="#BASE">
+<text x="199" y="254" class="combo tap layer-activator">BASE</text>
+</a><text x="199" y="265" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-M_MID">
@@ -1465,6 +1481,14 @@ rect.held, rect.combo.held {
 <a href="#BASE">
 <text x="168" y="186" class="combo tap layer-activator">BASE</text>
 </a><text x="168" y="197" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<path d="M199,254 l-97,-25" class="combo"/>
+<path d="M199,254 l97,25" class="combo"/>
+<rect rx="6" ry="6" x="185" y="241" width="28" height="26" class="combo"/>
+<a href="#BASE">
+<text x="199" y="254" class="combo tap layer-activator">BASE</text>
+</a><text x="199" y="265" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2568,6 +2592,14 @@ rect.held, rect.combo.held {
 <a href="#BASE">
 <text x="168" y="186" class="combo tap layer-activator">BASE</text>
 </a><text x="168" y="197" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<path d="M199,254 l-97,-25" class="combo"/>
+<path d="M199,254 l97,25" class="combo"/>
+<rect rx="6" ry="6" x="185" y="241" width="28" height="26" class="combo"/>
+<a href="#BASE">
+<text x="199" y="254" class="combo tap layer-activator">BASE</text>
+</a><text x="199" y="265" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
