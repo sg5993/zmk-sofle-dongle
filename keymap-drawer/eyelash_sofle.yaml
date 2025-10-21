@@ -57,15 +57,15 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - SYMBOL
+  - SYMB
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - FUNCTIONS
+  - FUNC
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - PRINTSCREEN
-  M_SLOW:
+  M_SLO:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - SYMBOL
+  - SYMB
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - FUNCTIONS
+  - FUNC
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -153,7 +153,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - '&mmv MOVE_Y(-600)'
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
@@ -165,13 +165,13 @@ layers:
   - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
-  - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(-400)'
-  - '&mmv MOVE_Y(400)'
-  - '&mmv MOVE_X(400)'
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: M_SLOW, h: toggle}
+  - {t: M_SLO, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
   - Ctl+A
@@ -179,23 +179,23 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+Z
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - SYMBOL
+  - SYMB
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - FUNCTIONS
+  - FUNC
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  SYMB:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -222,7 +222,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - F12
-  - {t: FUNCTIONS, h: toggle}
+  - {t: FUNC, h: toggle}
   - '~'
   - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -236,7 +236,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: M_SLOW, h: toggle}
+  - {t: M_SLO, h: toggle}
   - RGB ON
   - RGB EFF
   - RGB EFR
@@ -278,7 +278,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
-  - {t: M_SLOW, h: toggle}
+  - {t: M_SLO, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -390,7 +390,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  FUNCTIONS:
+  FUNC:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -455,43 +455,108 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  mouse test:
+  - $$mdi:keyboard-esc$$
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:pan-up$$
+  - Ctl+C
+  - Ctl+V
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-left$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:pan-down$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:pan-right$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
+  - '&mmv MOVE_X(-400)'
+  - '&mmv MOVE_Y(-400)'
+  - '&mmv MOVE_Y(400)'
+  - '&mmv MOVE_X(400)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: M_SLO, h: toggle}
+  - Ctl+KP MINUS
+  - Ctl+KP PLUS
+  - Ctl+A
+  - Ctl+X
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+Z
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - SYMB
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - FUNC
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [40, 28]
-  k: {t: M_SLOW, h: toggle}
+  k: {t: M_SLO, h: toggle}
   l: [BASE]
 - p: [40, 28]
   k: {t: BASE, h: toggle}
-  l: [M_SLOW, M_MID, ARROWS]
+  l: [M_SLO, M_MID, ARROWS]
 - p: [36, 50]
-  k: {t: M_SLOW, h: toggle}
+  k: {t: M_SLO, h: toggle}
   l: [BASE]
 - p: [36, 50]
   k: {t: BASE, h: toggle}
-  l: [M_SLOW, M_MID, ARROWS]
+  l: [M_SLO, M_MID, ARROWS]
 - p: [40, 50]
-  k: {t: M_SLOW, h: toggle}
+  k: {t: M_SLO, h: toggle}
   l: [BASE]
 - p: [40, 50]
   k: {t: BASE, h: toggle}
-  l: [M_SLOW, M_MID, ARROWS]
+  l: [M_SLO, M_MID, ARROWS]
 - p: [40, 60]
-  k: {t: M_SLOW, h: toggle}
+  k: {t: M_SLO, h: toggle}
   l: [BASE]
 - p: [40, 60]
   k: {t: BASE, h: toggle}
-  l: [M_SLOW, M_MID, ARROWS]
+  l: [M_SLO, M_MID, ARROWS]
 - p: [40, 30]
-  k: {t: M_SLOW, h: toggle}
+  k: {t: M_SLO, h: toggle}
   l: [BASE]
 - p: [40, 30]
   k: {t: BASE, h: toggle}
-  l: [M_SLOW, M_MID, ARROWS]
+  l: [M_SLO, M_MID, ARROWS]
 - p: [40, 56]
-  k: {t: M_SLOW, h: toggle}
+  k: {t: M_SLO, h: toggle}
   l: [BASE]
 - p: [40, 56]
   k: {t: BASE, h: toggle}
-  l: [M_SLOW, M_MID, ARROWS]
+  l: [M_SLO, M_MID, ARROWS]
 - p: [59, 51]
   k: $$mdi:apple-keyboard-option$$
 - p: [56, 39]
