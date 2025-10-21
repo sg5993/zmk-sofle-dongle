@@ -219,7 +219,7 @@
 &kp ESCAPE  &kp F1          &kp F2            &kp F3           &kp F4     &kp F5             &trans  &kp F6           &kp F7             &kp F8             &kp F9            &kp F10    &kp F11
 &trans      &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &trans  &kp PRINTSCREEN  &kp LEFT_ALT       &mmv MOVE_Y(-100)  &kp TAB           &none      &kp F12
 &trans      &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &trans  &kp LC(Z)        &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &none      &trans
-&trans      &to 2           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &trans  &kp LS(LC(Z))    &kp LEFT           &kp UP             &kp DOWN          &kp RIGHT  &trans
+&trans      &to 2           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &trans  &kp LS(LC(Z))    &kp LEFT           &kp DOWN           &kp UP            &kp RIGHT  &trans
 &trans      &trans          &trans            &trans           &mo 3      &trans             &trans  &trans           &mo 6              &trans             &trans            &trans
             >;
 
@@ -230,9 +230,9 @@
         layer_2 {
             bindings = <
 &kp ESC  &kp F1          &kp F2            &kp F3           &kp F4     &kp F5             &trans  &kp F6           &kp F7             &kp F8             &kp F9            &kp F10    &kp F11
-&trans   &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &trans  &kp PRINTSCREEN  &kp LEFT_ALT       &mmv MOVE_Y(-400)  &kp TAB           &none      &kp F12
-&trans   &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &trans  &kp LC(Z)        &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none      &trans
-&trans   &to 1           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &trans  &kp LC(LS(Z))    &kp LEFT           &kp UP             &kp DOWN          &kp RIGHT  &trans
+&trans   &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &trans  &kp PRINTSCREEN  &kp LEFT_ALT       &mmv MOVE_Y(-500)  &kp TAB           &none      &kp F12
+&trans   &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &trans  &kp LC(Z)        &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &none      &trans
+&trans   &to 1           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &trans  &kp LC(LS(Z))    &kp LEFT           &kp DOWN           &kp UP            &kp RIGHT  &trans
 &trans   &trans          &trans            &trans           &mo 3      &trans             &trans  &trans           &mo 6              &trans             &trans            &trans
             >;
 
@@ -244,7 +244,7 @@
             bindings = <
 &kp GRAVE   &kp F1        &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp CARET      &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F11
 &none       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_DOWN   &kp COLON      &kp EQUAL      &kp PLUS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F12
-&to 6       &kp TILDE     &none           &none            &none            &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp GRAVE
+&to 6       &kp TILDE     &kp TILDE       &none            &none            &mkp MB5           &mmv MOVE_LEFT   &kp SEMICOLON  &kp MINUS      &kp UNDERSCORE  &kp DOUBLE_QUOTES     &kp SINGLE_QUOTE       &kp GRAVE
 &trans      &to 1         &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp SLASH      &kp BACKSLASH  &kp PIPE        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE
 &kp C_MUTE  &bt BT_CLR    &bt BT_CLR_ALL  &trans           &trans           &none              &mkp LCLK        &trans         &none          &none           &none                 &none
             >;
@@ -281,11 +281,11 @@
 
         layer_6 {
             bindings = <
-&trans  &kp F1          &kp F2            &kp F3           &kp F4     &kp F5             &none  &kp F6           &kp F7             &kp F8             &kp F9            &kp F10           &kp F11
-&trans  &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &none  &kp PRINTSCREEN  &kp LEFT_ALT       &kp UP             &kp TAB           &none             &kp F12
-&trans  &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &none  &kp LC(Z)        &kp LEFT           &kp DOWN           &kp RIGHT         &none             &trans
-&trans  &none           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &none  &kp LC(LS(Z))    &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_Y(100)  &mmv MOVE_X(100)  &trans
-&none   &trans          &trans            &trans           &to 0      &trans             &none  &trans           &none              &trans             &trans            &trans
+&trans  &kp F1          &kp F2            &kp F3           &kp F4     &kp F5             &none  &kp F6           &kp F7             &kp F8            &kp F9             &kp F10           &kp F11
+&trans  &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &none  &kp PRINTSCREEN  &kp LEFT_ALT       &kp UP            &kp TAB            &none             &kp F12
+&trans  &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &none  &kp LC(Z)        &kp LEFT           &kp DOWN          &kp RIGHT          &none             &trans
+&trans  &none           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &none  &kp LC(LS(Z))    &mmv MOVE_X(-100)  &mmv MOVE_Y(100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)  &trans
+&none   &trans          &trans            &trans           &to 0      &trans             &none  &trans           &none              &trans            &trans             &trans
             >;
 
             label = "FUNCTIONS";
