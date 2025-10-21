@@ -468,10 +468,6 @@ combos:
 - p: [36, 50]
   k: {t: BASE, h: toggle}
   l: [M_SLOW, M_MID, ARROWS]
-- p: [60, 50]
-  k: Sft+$$mdi:keyboard-space$$
-- p: [56, 39]
-  k: Sft+$$mdi:keyboard-space$$
 - p: [40, 50]
   k: {t: M_SLOW, h: toggle}
   l: [BASE]
