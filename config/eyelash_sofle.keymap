@@ -142,6 +142,26 @@
             timeout-ms = <65>;
             layers = <1 2 5>;
         };
+
+        hanyung {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <59 51>;
+        };
+
+        hy {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <56 39>;
+        };
+
+        hy2 {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <39 57>;
+        };
+
+        hanyung2 {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <51 60>;
+        };
     };
 
     macros {
