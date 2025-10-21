@@ -223,7 +223,7 @@
 &trans      &trans          &trans            &trans           &mo 3      &trans             &trans  &trans           &mo 6              &trans             &trans            &trans
             >;
 
-            display-name = "M_SLO";
+            display-name = "mSLOW";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -236,7 +236,7 @@
 &trans   &trans          &trans            &trans           &mo 3      &trans             &trans  &trans           &mo 6              &trans             &trans            &trans
             >;
 
-            display-name = "M_MID";
+            display-name = "mFAST";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -285,10 +285,10 @@
 &trans  &none           &mkp MCLK         &msc SCRL_UP     &kp LC(C)  &kp LC(V)          &none  &kp PRINTSCREEN  &kp LEFT_ALT       &kp UP            &kp TAB            &none             &kp F12
 &trans  &msc SCRL_LEFT  &mkp RCLK         &msc SCRL_DOWN   &mkp LCLK  &msc SCRL_RIGHT    &none  &kp LC(Z)        &kp LEFT           &kp DOWN          &kp RIGHT          &none             &trans
 &trans  &none           &kp LC(KP_MINUS)  &kp LC(KP_PLUS)  &kp LC(A)  &kp LC(X)          &none  &kp LC(LS(Z))    &mmv MOVE_X(-100)  &mmv MOVE_Y(100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)  &trans
-&none   &trans          &trans            &trans           &to 0      &trans             &none  &trans           &none              &trans            &trans             &trans
+&none   &trans          &trans            &kp CAPS         &to 0      &trans             &none  &trans           &none              &trans            &trans             &trans
             >;
 
-            label = "FUNC";
+            label = "FUNC흥";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
