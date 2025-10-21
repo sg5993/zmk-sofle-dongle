@@ -1,5 +1,8 @@
 <svg width="1004" height="3162" viewBox="0 0 1004 3162" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="mdi:apple-keyboard-caps">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
+</svg>
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
 </svg>
@@ -638,46 +641,46 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="98" y="173" width="28" height="26" class="combo"/>
-<a href="#M_SLO">
-<text x="112" y="186" class="combo tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="112" y="186" class="combo tap layer-activator">mSLOW</text>
 </a><text x="112" y="197" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="798" y="173" width="28" height="26" class="combo"/>
-<a href="#M_SLO">
-<text x="812" y="186" class="combo tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="812" y="186" class="combo tap layer-activator">mSLOW</text>
 </a><text x="812" y="197" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
 <path d="M462,224 l-359,0" class="combo"/>
 <path d="M462,224 l359,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="211" width="28" height="26" class="combo"/>
-<a href="#M_SLO">
-<text x="462" y="224" class="combo tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="462" y="224" class="combo tap layer-activator">mSLOW</text>
 </a><text x="462" y="235" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
 <path d="M347,254 l-244,-27" class="combo"/>
 <path d="M347,254 l244,27" class="combo"/>
 <rect rx="6" ry="6" x="333" y="241" width="28" height="26" class="combo"/>
-<a href="#M_SLO">
-<text x="347" y="254" class="combo tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="347" y="254" class="combo tap layer-activator">mSLOW</text>
 </a><text x="347" y="265" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
 <path d="M168,186 l-67,31" class="combo"/>
 <path d="M168,186 l67,-31" class="combo"/>
 <rect rx="6" ry="6" x="154" y="173" width="28" height="26" class="combo"/>
-<a href="#M_SLO">
-<text x="168" y="186" class="combo tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="168" y="186" class="combo tap layer-activator">mSLOW</text>
 </a><text x="168" y="197" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-5">
 <path d="M199,254 l-97,-25" class="combo"/>
 <path d="M199,254 l97,25" class="combo"/>
 <rect rx="6" ry="6" x="185" y="241" width="28" height="26" class="combo"/>
-<a href="#M_SLO">
-<text x="199" y="254" class="combo tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="199" y="254" class="combo tap layer-activator">mSLOW</text>
 </a><text x="199" y="265" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-6">
@@ -706,8 +709,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 388)" class="layer-M_SLO">
-<text x="0" y="28" class="label" id="M_SLO">M_SLO:</text>
+<g transform="translate(40, 388)" class="layer-mSLOW">
+<text x="0" y="28" class="label" id="mSLOW">mSLOW:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -920,8 +923,8 @@ rect.held, rect.combo.held {
 <g transform="translate(84, 224)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#M_MID">
-<text x="0" y="-4" class="key tap layer-activator">M_MID</text>
+<a href="#mFAST">
+<text x="0" y="-4" class="key tap layer-activator">mFAST</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 203)" class="key keypos-41">
@@ -1117,8 +1120,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-M_MID">
-<text x="0" y="28" class="label" id="M_MID">M_MID:</text>
+<g transform="translate(40, 776)" class="layer-mFAST">
+<text x="0" y="28" class="label" id="mFAST">mFAST:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1331,8 +1334,8 @@ rect.held, rect.combo.held {
 <g transform="translate(84, 224)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#M_SLO">
-<text x="0" y="-4" class="key tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="0" y="-4" class="key tap layer-activator">mSLOW</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 203)" class="key keypos-41">
@@ -1754,8 +1757,8 @@ rect.held, rect.combo.held {
 <g transform="translate(84, 224)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#M_SLO">
-<text x="0" y="-4" class="key tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="0" y="-4" class="key tap layer-activator">mSLOW</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 203)" class="key keypos-41">
@@ -2002,8 +2005,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 91)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#M_SLO">
-<text x="0" y="-4" class="key tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="0" y="-4" class="key tap layer-activator">mSLOW</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(308, 91)" class="key none keypos-18">
@@ -2967,10 +2970,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(252, 259)" class="key trans keypos-55">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(252, 259)" class="key keypos-55">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g transform="translate(314, 283) rotate(30.0)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -3254,8 +3257,8 @@ rect.held, rect.combo.held {
 <g transform="translate(84, 224)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#M_SLO">
-<text x="0" y="-4" class="key tap layer-activator">M_SLO</text>
+<a href="#mSLOW">
+<text x="0" y="-4" class="key tap layer-activator">mSLOW</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 203)" class="key keypos-41">

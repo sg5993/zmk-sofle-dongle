@@ -65,7 +65,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - PRINTSCREEN
-  M_SLO:
+  mSLOW:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
@@ -106,7 +106,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: M_MID, h: toggle}
+  - {t: mFAST, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
   - Ctl+A
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  M_MID:
+  mFAST:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: M_SLO, h: toggle}
+  - {t: mSLOW, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
   - Ctl+A
@@ -236,7 +236,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: M_SLO, h: toggle}
+  - {t: mSLOW, h: toggle}
   - RGB ON
   - RGB EFF
   - RGB EFR
@@ -278,7 +278,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-up$$
-  - {t: M_SLO, h: toggle}
+  - {t: mSLOW, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -446,7 +446,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - {t: BASE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -496,7 +496,7 @@ layers:
   - '&mmv MOVE_X(400)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: M_SLO, h: toggle}
+  - {t: mSLOW, h: toggle}
   - Ctl+KP MINUS
   - Ctl+KP PLUS
   - Ctl+A
@@ -522,41 +522,41 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [40, 28]
-  k: {t: M_SLO, h: toggle}
+  k: {t: mSLOW, h: toggle}
   l: [BASE]
 - p: [40, 28]
   k: {t: BASE, h: toggle}
-  l: [M_SLO, M_MID, ARROWS]
+  l: [mSLOW, mFAST, ARROWS]
 - p: [36, 50]
-  k: {t: M_SLO, h: toggle}
+  k: {t: mSLOW, h: toggle}
   l: [BASE]
 - p: [36, 50]
   k: {t: BASE, h: toggle}
-  l: [M_SLO, M_MID, ARROWS]
+  l: [mSLOW, mFAST, ARROWS]
 - p: [40, 50]
-  k: {t: M_SLO, h: toggle}
+  k: {t: mSLOW, h: toggle}
   l: [BASE]
 - p: [40, 50]
   k: {t: BASE, h: toggle}
-  l: [M_SLO, M_MID, ARROWS]
+  l: [mSLOW, mFAST, ARROWS]
 - p: [40, 60]
-  k: {t: M_SLO, h: toggle}
+  k: {t: mSLOW, h: toggle}
   l: [BASE]
 - p: [40, 60]
   k: {t: BASE, h: toggle}
-  l: [M_SLO, M_MID, ARROWS]
+  l: [mSLOW, mFAST, ARROWS]
 - p: [40, 30]
-  k: {t: M_SLO, h: toggle}
+  k: {t: mSLOW, h: toggle}
   l: [BASE]
 - p: [40, 30]
   k: {t: BASE, h: toggle}
-  l: [M_SLO, M_MID, ARROWS]
+  l: [mSLOW, mFAST, ARROWS]
 - p: [40, 56]
-  k: {t: M_SLO, h: toggle}
+  k: {t: mSLOW, h: toggle}
   l: [BASE]
 - p: [40, 56]
   k: {t: BASE, h: toggle}
-  l: [M_SLO, M_MID, ARROWS]
+  l: [mSLOW, mFAST, ARROWS]
 - p: [59, 51]
   k: $$mdi:apple-keyboard-option$$
 - p: [56, 39]
