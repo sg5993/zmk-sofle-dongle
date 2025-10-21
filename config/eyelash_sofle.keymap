@@ -77,16 +77,6 @@
             timeout-ms = <65>;
         };
 
-        hanyung {
-            bindings = <&kp LS(SPACE)>;
-            key-positions = <60 50>;
-        };
-
-        hanyung2 {
-            bindings = <&kp LS(SPACE)>;
-            key-positions = <56 39>;
-        };
-
         another {
             bindings = <&to 1>;
             key-positions = <40 50>;
