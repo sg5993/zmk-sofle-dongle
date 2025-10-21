@@ -496,3 +496,11 @@ combos:
 - p: [40, 56]
   k: {t: BASE, h: toggle}
   l: [M_SLOW, M_MID, ARROWS]
+- p: [59, 51]
+  k: $$mdi:apple-keyboard-option$$
+- p: [56, 39]
+  k: $$mdi:apple-keyboard-option$$
+- p: [39, 57]
+  k: $$mdi:apple-keyboard-option$$
+- p: [51, 60]
+  k: $$mdi:apple-keyboard-option$$
