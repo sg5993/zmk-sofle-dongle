@@ -114,8 +114,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+Z
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -224,7 +224,7 @@ layers:
   - F12
   - {t: FUNCTIONS, h: toggle}
   - '~'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
@@ -439,8 +439,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Sft+Z
   - '&mmv MOVE_X(-100)'
-  - '&mmv MOVE_Y(-100)'
   - '&mmv MOVE_Y(100)'
+  - '&mmv MOVE_Y(-100)'
   - '&mmv MOVE_X(100)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
