@@ -152,6 +152,18 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <51 60>;
         };
+
+        utale {
+            bindings = <&to 8>;
+            key-positions = <40 28 16 50 36 22>;
+            layers = <0>;
+        };
+
+        tester {
+            bindings = <&to 0>;
+            key-positions = <40 28 16 50 36 22>;
+            layers = <8>;
+        };
     };
 
     macros {
@@ -303,6 +315,16 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &kp Z   &kp X   &kp C   &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
+            >;
         };
     };
 };
