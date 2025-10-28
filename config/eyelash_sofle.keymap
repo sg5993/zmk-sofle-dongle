@@ -162,6 +162,11 @@
             key-positions = <40 28 16 50 36 22>;
             layers = <8>;
         };
+
+        hyfy {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <60 36>;
+        };
     };
 
     macros {
