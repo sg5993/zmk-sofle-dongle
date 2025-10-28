@@ -64,16 +64,14 @@
         };
 
         copyofbir {
-            bindings = <&to 1>;
+            bindings = <&kp RIGHT_ALT>;
             key-positions = <36 50>;
-            layers = <0>;
             timeout-ms = <65>;
         };
 
         rev {
-            bindings = <&to 0>;
+            bindings = <&kp RIGHT_ALT>;
             key-positions = <36 50>;
-            layers = <1 2 5>;
             timeout-ms = <65>;
         };
 
