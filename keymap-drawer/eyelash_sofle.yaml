@@ -634,3 +634,5 @@ combos:
 - p: [40, 28, 16, 50, 36, 22]
   k: {t: BASE, h: toggle}
   l: ['8']
+- p: [60, 36]
+  k: $$mdi:apple-keyboard-option$$
