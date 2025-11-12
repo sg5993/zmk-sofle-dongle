@@ -75,48 +75,6 @@
             timeout-ms = <65>;
         };
 
-        another {
-            bindings = <&to 1>;
-            key-positions = <40 50>;
-            timeout-ms = <65>;
-            layers = <0>;
-        };
-
-        another2 {
-            bindings = <&to 0>;
-            key-positions = <40 50>;
-            timeout-ms = <65>;
-            layers = <1 2 5>;
-        };
-
-        an {
-            bindings = <&to 1>;
-            key-positions = <40 60>;
-            layers = <0>;
-            timeout-ms = <65>;
-        };
-
-        an2 {
-            bindings = <&to 0>;
-            key-positions = <40 60>;
-            layers = <1 2 5>;
-            timeout-ms = <65>;
-        };
-
-        nz {
-            bindings = <&to 1>;
-            key-positions = <40 30>;
-            timeout-ms = <65>;
-            layers = <0>;
-        };
-
-        nz2 {
-            bindings = <&to 0>;
-            key-positions = <40 30>;
-            timeout-ms = <65>;
-            layers = <1 2 5>;
-        };
-
         testimz {
             bindings = <&to 1>;
             key-positions = <40 56>;
