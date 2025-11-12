@@ -85,7 +85,7 @@ layers:
   - $$mdi:pan-up$$
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&forceeng'
   - PRINTSCREEN
   - $$mdi:apple-keyboard-option$$
   - '&mmv MOVE_Y(-100)'
