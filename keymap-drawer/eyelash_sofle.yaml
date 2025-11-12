@@ -596,24 +596,6 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [36, 50]
   k: $$mdi:apple-keyboard-option$$
-- p: [40, 50]
-  k: {t: mSLOW, h: toggle}
-  l: [BASE]
-- p: [40, 50]
-  k: {t: BASE, h: toggle}
-  l: [mSLOW, mFAST, ARROWS]
-- p: [40, 60]
-  k: {t: mSLOW, h: toggle}
-  l: [BASE]
-- p: [40, 60]
-  k: {t: BASE, h: toggle}
-  l: [mSLOW, mFAST, ARROWS]
-- p: [40, 30]
-  k: {t: mSLOW, h: toggle}
-  l: [BASE]
-- p: [40, 30]
-  k: {t: BASE, h: toggle}
-  l: [mSLOW, mFAST, ARROWS]
 - p: [40, 56]
   k: {t: mSLOW, h: toggle}
   l: [BASE]
