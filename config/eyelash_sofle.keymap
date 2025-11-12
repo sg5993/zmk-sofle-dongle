@@ -164,6 +164,13 @@
             bindings = <&kp LEFT_CONTROL &kp A>;
             label = "SELECTALL";
         };
+
+        forceeng: forceeng {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LC(J)))>;
+            label = "FORCEENG";
+        };
     };
 
     keymap {
