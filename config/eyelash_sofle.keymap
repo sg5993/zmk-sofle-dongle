@@ -49,6 +49,20 @@
     combos {
         compatible = "zmk,combos";
 
+        zge {
+            bindings = <&to 1>;
+            key-positions = <40 28>;
+            layers = <0>;
+            timeout-ms = <65>;
+        };
+
+        ragekl {
+            bindings = <&to 0>;
+            key-positions = <40 28>;
+            layers = <1 2 5>;
+            timeout-ms = <65>;
+        };
+
         copyofbir {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <36 50>;
@@ -87,6 +101,20 @@
             key-positions = <40 60>;
             layers = <1 2 5>;
             timeout-ms = <65>;
+        };
+
+        nz {
+            bindings = <&to 1>;
+            key-positions = <40 30>;
+            timeout-ms = <65>;
+            layers = <0>;
+        };
+
+        nz2 {
+            bindings = <&to 0>;
+            key-positions = <40 30>;
+            timeout-ms = <65>;
+            layers = <1 2 5>;
         };
 
         testimz {
@@ -130,9 +158,9 @@
         };
 
         tester {
-            bindings = <&kp LS(LA(LC(J)))>;
-            key-positions = <55>;
-            layers = <0>;
+            bindings = <&to 0>;
+            key-positions = <40 28 16 50 36 22>;
+            layers = <8>;
         };
     };
 
@@ -197,6 +225,7 @@
 &kp BACKSPACE  &kp A         &kp S             &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K             &kp L         &kp SEMI         &kp ENTER
 &kp LSHFT      &kp Z         &kp X             &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA         &kp DOT       &kp FSLH         &kp RIGHT_SHIFT
 &kp C_MUTE     &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 3   &kp SPACE    &kp ENTER        &kp SPACE  &mo 6   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp PRINTSCREEN
+&kp C_MUTE     &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LEFT_ALT  &force_eng_mo3   &kp SPACE    &kp ENTER        &kp SPACE  &mo 6   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
