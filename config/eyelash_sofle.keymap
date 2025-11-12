@@ -185,13 +185,6 @@
             bindings = <&kp LS(LA(LC(J)))>;
             label = "FORCE_ENG";
         };
-
-        force_eng_mo3: force_eng_mo3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&force_eng &mo 3>;
-            label = "FORCE_ENG_MO3";
-        };
     };
 
     keymap {
