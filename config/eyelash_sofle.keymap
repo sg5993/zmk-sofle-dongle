@@ -44,7 +44,22 @@
     };
 
     behaviors {
-    };
+        han_eng_mo3: behavior_macro {
+            label = "한/영 + MO3";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+    
+            bindings = <
+                &macro_tap
+                    &forceeng        // 너의 forceeng 매크로 실행
+                &macro_press
+                    &mo 3            // 키를 누르는 동안 layer 3 활성화
+                &macro_release
+                    &mo 3 release    // 떼면 layer 3 비활성화
+            >;
+        };
+    };    
+
 
     combos {
         compatible = "zmk,combos";
