@@ -57,7 +57,7 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - '&han_eng_mo3_2'
+  - SYMB
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
