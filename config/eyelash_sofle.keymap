@@ -142,32 +142,9 @@
             layers = <8>;
         };
 
-        comma {
-            bindings = <&kp F15>;
-            key-positions = <60 48>;
-            layers = <0>;
-            timeout-ms = <65>;
-        };
-
-        dot {
-            bindings = <&kp F16>;
-            key-positions = <60 49>;
-            layers = <0>;
-            timeout-ms = <65>;
-        };
-
-        comma2 {
-            bindings = <&kp F15>;
-            key-positions = <48 50>;
-            layers = <0>;
-            timeout-ms = <65>;
-        };
-
         dot2 {
             bindings = <&kp F16>;
             key-positions = <49 50>;
-            layers = <0>;
-            timeout-ms = <65>;
         };
     };
 
