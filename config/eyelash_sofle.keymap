@@ -44,7 +44,7 @@
     };
 
     behaviors {
-        han_eng_mo3: behavior_macro {
+        /*han_eng_mo3: behavior_macro {
             label = "한/영 + MO3";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -57,7 +57,7 @@
                 &macro_release
                     &to 0    // 떼면 layer 3 비활성화
             >;
-        };
+        };*/
         
         han_eng_mo3_2: behavior_macro {
                 compatible = "zmk,behavior-macro";
