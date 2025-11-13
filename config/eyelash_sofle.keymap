@@ -141,6 +141,26 @@
             key-positions = <40 28 16 50 36 22>;
             layers = <8>;
         };
+
+        comma {
+            bindings = <&kp F15>;
+            key-positions = <60 48>;
+        };
+
+        dot {
+            bindings = <&kp F16>;
+            key-positions = <60 49>;
+        };
+
+        comma2 {
+            bindings = <&kp F15>;
+            key-positions = <48 50>;
+        };
+
+        dot2 {
+            bindings = <&kp F16>;
+            key-positions = <49 50>;
+        };
     };
 
     macros {
