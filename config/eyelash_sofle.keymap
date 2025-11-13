@@ -55,7 +55,7 @@
                 &macro_press
                     &mo 3            // 키를 누르는 동안 layer 3 활성화
                 &macro_release
-                    &mo 3 release    // 떼면 layer 3 비활성화
+                    &to 0    // 떼면 layer 3 비활성화
             >;
         };
     };    
