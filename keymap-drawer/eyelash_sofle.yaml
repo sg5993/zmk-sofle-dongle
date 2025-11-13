@@ -618,9 +618,13 @@ combos:
   l: ['8']
 - p: [60, 48]
   k: F15
+  l: [BASE]
 - p: [60, 49]
   k: F16
+  l: [BASE]
 - p: [48, 50]
   k: F15
+  l: [BASE]
 - p: [49, 50]
   k: F16
+  l: [BASE]
