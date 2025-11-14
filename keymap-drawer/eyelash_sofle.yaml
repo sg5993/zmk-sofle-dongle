@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - F16
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
   - F8
@@ -85,7 +85,7 @@ layers:
   - $$mdi:pan-up$$
   - Ctl+C
   - Ctl+V
-  - F13
+  - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - $$mdi:apple-keyboard-option$$
   - '&mmv MOVE_Y(-100)'
@@ -98,7 +98,7 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-right$$
-  - F14
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - '&mmv MOVE_X(-100)'
   - '&mmv MOVE_Y(100)'
@@ -111,7 +111,7 @@ layers:
   - Ctl+KP PLUS
   - Ctl+A
   - Ctl+X
-  - F15
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+Z
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
