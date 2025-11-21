@@ -132,14 +132,14 @@
 
         utale {
             bindings = <&to 8>;
-            key-positions = <40 28 16 50 36 22>;
+            key-positions = <40 28 29>;
             layers = <0>;
         };
 
         tester {
             bindings = <&to 0>;
-            key-positions = <40 28 16 50 36 22>;
-            layers = <8>;
+            key-positions = <40 28 29>;
+            layers = <8 9>;
         };
 
         dot2 {
@@ -307,13 +307,29 @@
         };
 
         layer_8 {
+            display-name = "pMs";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans  &kp Z   &kp X   &kp C   &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
+&kp ESC  &kp F1          &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6           &kp F7             &kp F8             &kp F9            &kp F10          &kp F11
+&trans   &trans          &trans  &kp W   &trans  &trans    &trans  &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-100)  &mkp RCLK         &mkp MCLK        &kp F12
+&trans   &trans          &kp A   &kp S   &kp D   &trans    &trans  &kp LC(Z)        &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &msc SCRL_DOWN   &trans
+&trans   &kp LEFT_SHIFT  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Z))    &msc SCRL_LEFT     &msc SCRL_DOWN     &msc SCRL_UP      &msc SCRL_RIGHT  &trans
+&trans   &trans          &trans  &trans  &to 9   &trans    &trans  &trans           &mo 6              &trans             &trans            &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_9 {
+            display-name = "pMf";
+            bindings = <
+&kp ESC  &kp F1          &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6           &kp F7             &kp F8             &kp F9            &kp F10          &kp F11
+&trans   &trans          &trans  &kp W   &trans  &trans    &trans  &kp PRINTSCREEN  &mkp LCLK          &mmv MOVE_Y(-600)  &mkp RCLK         &mkp MCLK        &kp F12
+&trans   &trans          &kp A   &kp S   &kp D   &trans    &trans  &kp LC(Z)        &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc SCRL_DOWN   &trans
+&trans   &kp LEFT_SHIFT  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Z))    &msc SCRL_LEFT     &msc SCRL_DOWN     &msc SCRL_UP      &msc SCRL_RIGHT  &trans
+&trans   &trans          &trans  &trans  &to 8   &trans    &trans  &trans           &mo 6              &trans             &trans            &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
