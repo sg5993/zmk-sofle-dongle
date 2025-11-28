@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/sg5993/zmk
+      url-base: https://github.com/sg5993
     - name: gpeye
       url-base: https://github.com/GPeye
     - name: tokyo2006
