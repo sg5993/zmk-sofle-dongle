@@ -560,7 +560,7 @@ layers:
   - '&mmv MOVE_X(100)'
   - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - A
   - {t: pMf, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
